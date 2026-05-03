@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #eef2f7;
+}
+
+nav {
+  background: #1e293b;
+  padding: 12px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 12px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #38bdf8;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #1e293b;
+  color: white;
+}
